@@ -1,4 +1,4 @@
 #!/bin/bash
 
-export MIKA_ROOT_DIR=`pwd`
+export OE_ROOT_DIR=`pwd`
 ./vendor/bin/phpunit $1 --bootstrap ./vendor/autoload.php ./src/*
